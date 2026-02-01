@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 30px auto;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+
+h1{
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Date section */
+.date-section{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.date-section input{
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Input section */
+.input-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-section input{
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.input-section button{
+    margin-left: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-section button:hover{
+    background: #45a049;
+}
+
+/* Table */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td{
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+table th{
+    background: #4CAF50;
+    color: white;
+}
+
+/* Attendance status */
+.present{
+    color: green;
+    font-weight: bold;
+}
+
+.absent{
+    color: red;
+    font-weight: bold;
+}
+
+/* Buttons */
+.status-btn{
+    padding: 5px 10px;
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.present-btn{
+    background: #4CAF50;
+    color: white;
+}
+
+.absent-btn{
+    background: red;
+    color: white;
+}
